@@ -4,15 +4,17 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import 'react-sticky-header/styles.css';
+import StickyHeader from 'react-sticky-header';
 
 const App = () => (
   <Router>
     <div>
       <div>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+        <ul className="Header_links">
+          <li className="Header_link"><Link to="/">Home</Link></li>
+          <li className="Header_link"><Link to="/projects">Projects</Link></li>
+          <li className="Header_link"><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
       <Route exact path="/" component={Home}/>
