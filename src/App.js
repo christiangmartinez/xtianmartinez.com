@@ -1,51 +1,43 @@
-import React, { Component } from 'react';
-import { Router, browserHistory, Route, Link } from 'react-router';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
-const Page = ({ title }) => (
-    <div className="App">
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>{title}</h2>
+const App = () => (
+  <Router>
+    <div>
+      <div>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
       </div>
-      <p className="App-intro">
-        This is the {title} page.
-      </p>
-      <p>
-        <Link to="/">Home</Link>
-      </p>
-      <p>
-        <Link to="/about">About</Link>
-      </p>
-      <p>
-        <Link to="/settings">Settings</Link>
-      </p>
+      <Route exact path="/" component={Home}/>
+      <Route path="/projects" component={Projects}/>
+      <Route path="/contact" component={Contact}/>
     </div>
-);
+  </Router>
+)
 
-const Home = (props) => (
-  <Page title="Home"/>
-);
+const Home = () => (
+  <div>
+    <h2>Home</h2>
+  </div>
+)
 
-const About = (props) => (
-  <Page title="About"/>
-);
+const Projects = () => (
+  <div>
+    <h2>Projects</h2>
+  </div>
+)
 
-const Settings = (props) => (
-  <Page title="Settings"/>
-);
+const Contact = () => (
+  <div>
+    <h2>Contact</h2>
+  </div>
+)
 
-class App extends Component {
-  render() {
-    return (
-      <Router history={browserHistory}>
-        <Route path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/settings" component={Settings}/>
-      </Router>
-    );
-  }
-}
-
-export default App;
+export default App
