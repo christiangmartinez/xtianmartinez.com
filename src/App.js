@@ -7,7 +7,7 @@ import {
 
 const App = () => (
   <Router>
-    <div className="demo-layout-transparent mdl-layout mdl-js-layout">
+    <div className="mdl-layout mdl-js-layout">
       <header className="mdl-layout__header mdl-layout__header--transparent">
         <div className="mdl-layout__header-row">
           <nav className="mdl-navigation">
