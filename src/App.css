@@ -4,14 +4,5 @@
 }
 .mdl-grid{
   padding: 8px;
-}
-
-.mdl-cell {
-  margin: 8px;
-  width: calc(33.3333333333% - 16px);  
-}
-
-.content-max-width {
   max-width: 900px;
-  margin: auto;
 }

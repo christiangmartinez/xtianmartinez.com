@@ -18,11 +18,9 @@ const App = () => (
         </div>
       </header>
       <main className="mdl-layout__content">
-        <div className="mdl-grid content-max-width">
-          <Route exact path="/about" component={About}/>
-          <Route path="/work" component={Work}/>
-          <Route path="/contact" component={Contact}/>
-        </div>
+        <Route exact path="/about" component={About}/>
+        <Route path="/work" component={Work}/>
+        <Route path="/contact" component={Contact}/>
       </main>
     </div>
   </Router>
@@ -35,18 +33,31 @@ const About = () => (
 )
 
 const Work = () => (
-  <div className="mdl-cell mdl-card mdl-shadow--2dp">
-    <div className="mdl-card__title">
-      <h2 className="mdl-card__title-text">
-        Sample Project
-      </h2>
+  <div className="mdl-grid">
+    <div className="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+      <h3 className="mdl-card__title-text">Project Zero</h3>
+      <div className="mdl-card__supporting-text">
+        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+      </div>
+    </div>
+    <div className="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+      <h3 className="mdl-card__title-text">Project One</h3>
+      <div className="mdl-card__supporting-text">
+        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+      </div>
+    </div>
+    <div className="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+      <h3 className="mdl-card__title-text">Project Two</h3>
+      <div className="mdl-card__supporting-text">
+        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+      </div>
     </div>
   </div>
 )
 
 const Contact = () => (
   <div>
-    <h2>Contact</h2>
+    <h3>You can reach me here:</h3>
   </div>
 )
 
