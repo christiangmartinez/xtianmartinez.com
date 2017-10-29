@@ -5,7 +5,7 @@ import {
   Link
 } from 'react-router-dom'
 
-var About = require('./About');
+import About from './About'
 
 const App = () => (
   <Router>
