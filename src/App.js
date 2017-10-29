@@ -5,6 +5,8 @@ import {
   Link
 } from 'react-router-dom'
 
+var About = require('./About');
+
 const App = () => (
   <Router>
     <div className="mdl-layout mdl-js-layout">
@@ -24,12 +26,6 @@ const App = () => (
       </main>
     </div>
   </Router>
-)
-
-const About = () => (
-  <div>
-    <h3>Hello, I'm Christian Martinez, a Full Stack Web Developer</h3>
-  </div>
 )
 
 const Work = () => (
