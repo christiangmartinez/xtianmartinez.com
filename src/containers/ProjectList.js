@@ -3,15 +3,23 @@ import React from 'react'
 let projects = [{
   id: 0,
   title: 'Project 0',
-  description: 'Annoy kitten brother with poking kitty kitty for sit on the laptop find empty spot in cupboard and sleep all day kitty kitty, find a way to fit in tiny box yet get video posted to internet for chasing red dot. Mice plop down in the middle where everybody walks yet roll over and sun my belly'
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 },{
   id: 1,
   title: 'Project 1',
-  description: 'I could pee on this if i had the energy attack feet, or eat a plant, kill a hand, destroy couch as revenge so if it fits, i sits yet meowing non stop for food and scratch the postman wake up lick paw wake up owner meow meow.'
+  description: 'In hendrerit gravida rutrum quisque. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. Nunc aliquet bibendum enim facilisis gravida. Lobortis scelerisque fermentum dui faucibus in ornare quam.'
 },{
   id: 2,
   title: 'Project 2',
-  description: 'Run in circles woops poop hanging from butt must get rid run run around house drag poop on floor maybe it comes off woops left brown marks on floor human slave clean lick butt now. Has closed eyes but still sees you claw drapes.'
+  description: 'Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Non arcu risus quis varius quam quisque. Justo eget magna fermentum iaculis eu non diam.'
+},{
+  id:3,
+  title: 'The Third Project',
+  description: 'This is the thrid project and I think that the mapping is functioning correctly because I was trying to define project in a weird way'
+},{
+  id:4,
+  title: 'Fourtherprojector',
+  description: 'In massa tempor nec feugiat nisl pretium fusce. Sed vulputate mi sit amet mauris commodo quis imperdiet. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Eu volutpat odio facilisis mauris sit amet massa. '
 }]
 
 export default projects
