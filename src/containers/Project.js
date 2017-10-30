@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 class Project extends React.Component {
   render() {
@@ -7,13 +8,15 @@ class Project extends React.Component {
         <div className="mdl-card__media">
           <img className="cover-image" src={this.props.project.coverImg} />
         </div>
-        <h3 className="mdl-card__title-text">{this.props.project.title}</h3>
+        <div className="mdl-card__title">
+          <h2 className="mdl-card__title-text">{this.props.project.title}</h2>
+        </div>
         <div className="mdl-card__supporting-text">
           {this.props.project.description}
         </div>
         <div className="mdl-card__actions mdl-card--border">
-          <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-            LEARN MORE
+          <a>
+            <Link className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" to="/project">LEARN MORE</Link>
           </a>
         </div>
       </div>

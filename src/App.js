@@ -8,6 +8,7 @@ import {
 import About from './containers/About'
 import Contact from './containers/Contact'
 import Work from './containers/Work'
+import ProjectDetail from './containers/ProjectDetail'
 
 const App = () => (
   <Router>
@@ -25,6 +26,7 @@ const App = () => (
         <Route exact path="/about" component={About}/>
         <Route path="/work" component={Work}/>
         <Route path="/contact" component={Contact}/>
+        <Route path="/project" component={ProjectDetail}/>
       </main>
     </div>
   </Router>
