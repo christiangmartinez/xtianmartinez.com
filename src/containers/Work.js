@@ -8,7 +8,8 @@ class Work extends React.Component {
       <div className="mdl-grid">
         {projects.map((project)=> {
           return <Project project={project}/>
-        })}
+          })
+        }
       </div>
     )
   }
