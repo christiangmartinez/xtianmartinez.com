@@ -3,13 +3,12 @@ import projects from './ProjectList'
 import Project from './Project'
 
 class Work extends React.Component {
-  render(props) {
+  render() {
     return(
       <div className="mdl-grid">
-        {this.props.projects.map((project)=> {
+        {projects.map((project)=> {
           return <Project project={project}/>
-        })
-      }
+        })}
       </div>
     )
   }
