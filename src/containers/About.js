@@ -7,8 +7,10 @@ const About = () => (
       <div className="mdl-card__title">
         <h2>Hello! I'm Christian Martinez.</h2>
       </div>
+    </div>
+    <div className="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
       <div className="mdl-card__supporting-text">
-        I'm a Fullstack Web Developer who is passionate about creating things, solving problems, and always finding something new to learn.
+        I'm a Fullstack Web Developer with a passion for creating things, solving problems, and always finding something new to learn.
       </div>
     </div>
   </div>
