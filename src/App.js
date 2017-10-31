@@ -7,7 +7,7 @@ import {
 
 import About from './containers/About'
 import Contact from './containers/Contact'
-import Work from './containers/Work'
+import Portfolio from './containers/Portfolio'
 import ProjectDetail from './containers/ProjectDetail'
 
 const App = () => (
@@ -17,16 +17,16 @@ const App = () => (
         <div className="mdl-layout__header-row">
           <nav className="mdl-navigation">
             <a className="mdl-navigation__link"><Link to="/about">ABOUT</Link></a>
-            <a className="mdl-navigation__link"><Link to="/work">WORK</Link></a>
+            <a className="mdl-navigation__link"><Link to="/portfolio">PORTFOLIO</Link></a>
             <a className="mdl-navigation__link"><Link to="/contact">CONTACT</Link></a>
           </nav>
         </div>
       </header>
       <main className="mdl-layout__content">
         <Route exact path="/about" component={About}/>
-        <Route path="/work" component={Work}/>
+        <Route path="/portfolio" component={Portfolio}/>
         <Route path="/contact" component={Contact}/>
-        <Route path="/project" component={ProjectDetail}/>
+        <Route path="/portfolio/:url" component={ProjectDetail}/>
       </main>
     </div>
   </Router>

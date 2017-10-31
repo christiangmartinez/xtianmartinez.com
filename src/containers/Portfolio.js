@@ -2,7 +2,7 @@ import React from 'react'
 import projects from './ProjectList'
 import Project from './Project'
 
-class Work extends React.Component {
+class Portfolio extends React.Component {
   render() {
     return(
       <div className="mdl-grid">
@@ -16,4 +16,4 @@ class Work extends React.Component {
 }
 
 
-export default Work
+export default Portfolio
