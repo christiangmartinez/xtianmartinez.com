@@ -12,16 +12,21 @@ body {
     padding: 8px;
     max-width: 900px;
 }
-.mdl-layout__header-row{
-  justify-content: center;
+
+.mdl-layout__header {
+  color: black;
 }
 
-a {
+.mdl-layout-title {
+  font-weight: bold;
+}
+
+.mdl-layout__header-row .mdl-navigation__link{
   color: black;
   text-decoration: none;
 }
 
-a.mdl-navigation__link:hover {
+.mdl-layout__header-row .mdl-navigation__link:hover {
   text-decoration: underline;
 }
 

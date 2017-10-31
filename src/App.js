@@ -15,10 +15,12 @@ const App = () => (
     <div className="mdl-layout mdl-js-layout">
       <header className="mdl-layout__header mdl-layout__header--transparent">
         <div className="mdl-layout__header-row">
+          <span className="mdl-layout-title">xtian.io</span>
+          <div className="mdl-layout-spacer"></div>
           <nav className="mdl-navigation">
-            <a className="mdl-navigation__link"><Link to="/about">ABOUT</Link></a>
-            <a className="mdl-navigation__link"><Link to="/portfolio">PORTFOLIO</Link></a>
-            <a className="mdl-navigation__link"><Link to="/contact">CONTACT</Link></a>
+            <Link className="mdl-navigation__link" to="/about">ABOUT</Link>
+            <Link className="mdl-navigation__link" to="/portfolio">PORTFOLIO</Link>
+            <Link className="mdl-navigation__link" to="/contact">CONTACT</Link>
           </nav>
         </div>
       </header>
