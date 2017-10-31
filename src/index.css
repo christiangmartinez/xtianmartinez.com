@@ -52,6 +52,11 @@ body {
   color: #fff;
 }
 
+.contact-button {
+  height: 70px;
+  width: 70px;
+}
+
 .cover-image {
   width: 100%;
   height: auto;
