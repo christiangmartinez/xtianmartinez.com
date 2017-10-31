@@ -8,11 +8,13 @@ const About = () => (
         <h2>Hello! I'm Christian Martinez.</h2>
       </div>
     </div>
-    <div className="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
-      <div className="mdl-card__supporting-text">
+    <div className="mdl-cell mdl-cell--3-col"></div>
+    <div className="mdl-cell mdl-cell--6-col">
+      <div className="about-text">
         I'm a Fullstack Web Developer with a passion for creating things, solving problems, and always finding something new to learn.
       </div>
     </div>
+    <div className="mdl-cell mdl-cell--3-col"></div>
   </div>
 )
 
