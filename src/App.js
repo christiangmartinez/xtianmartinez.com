@@ -17,7 +17,7 @@ const App = () => (
         <div className="mdl-layout__header-row">
           <nav className="mdl-navigation">
             <a className="mdl-navigation__link"><Link to="/about">ABOUT</Link></a>
-            <a className="mdl-navigation__link is-active"><Link to="/work">WORK</Link></a>
+            <a className="mdl-navigation__link"><Link to="/work">WORK</Link></a>
             <a className="mdl-navigation__link"><Link to="/contact">CONTACT</Link></a>
           </nav>
         </div>
