@@ -30,6 +30,28 @@ body {
   text-decoration: underline;
 }
 
+.info-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: rgba(200,100,0,.5);
+  background-blend-mode: multiply;
+}
+
+.about-card > .mdl-card__title {
+  position: absolute;
+  height: 160%;
+  margin-left: 29%;
+  color: #fff;
+}
+
+.contact-card > .mdl-card__title {
+  position: absolute;
+  height: 180%;
+  margin-left: 2%;
+  color: #fff;
+}
+
 .cover-image {
   width: 100%;
   height: auto;
