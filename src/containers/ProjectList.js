@@ -3,33 +3,21 @@ import React from 'react'
 let projects = [{
   id: 0,
   url: 'project0',
-  coverImg:'https://getmdl.io/templates/portfolio/images/example-work07.jpg',
+  coverImg:'https://www.japantimes.co.jp/wp-content/uploads/2014/08/p22-martin-art-of-princess-mononoke-a-20140803-870x499.jpg',
   title: 'Project 0',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  description: 'An Angular 2 web app to track Overwatch Characters.'
 },{
   id: 1,
   url: 'project1',
-  coverImg:'https://getmdl.io/templates/portfolio/images/example-work06.jpg',
+  coverImg:'https://www.japantimes.co.jp/wp-content/uploads/2014/08/p22-martin-art-of-princess-mononoke-a-20140803-870x499.jpg',
   title: 'Project 1',
-  description: 'In hendrerit gravida rutrum quisque. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. Nunc aliquet bibendum enim facilisis gravida. Lobortis scelerisque fermentum dui faucibus in ornare quam.'
+  description: 'A website that shows data on current near-earth objects.'
 },{
   id: 2,
   url: 'project2',
-  coverImg:'https://getmdl.io/templates/portfolio/images/example-work07.jpg',
+  coverImg:'https://www.japantimes.co.jp/wp-content/uploads/2014/08/p22-martin-art-of-princess-mononoke-a-20140803-870x499.jpg',
   title: 'Project 2',
   description: 'Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Non arcu risus quis varius quam quisque. Justo eget magna fermentum iaculis eu non diam.'
-},{
-  id:3,
-  url: 'project3',
-  coverImg:'https://getmdl.io/templates/portfolio/images/example-work06.jpg',
-  title: 'The Third Project',
-  description: 'This is the thrid project and I think that the mapping is functioning correctly because I was trying to define project in a weird way'
-},{
-  id:4,
-  url: 'project4',
-  coverImg:'https://getmdl.io/templates/portfolio/images/example-work07.jpg',
-  title: 'Fourtherprojector',
-  description: 'In massa tempor nec feugiat nisl pretium fusce. Sed vulputate mi sit amet mauris commodo quis imperdiet. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Eu volutpat odio facilisis mauris sit amet massa. '
 }]
 
 export default projects

@@ -14,11 +14,7 @@ body {
 }
 
 .mdl-layout__header {
-  color: black;
-}
-
-.mdl-layout-title {
-  font-weight: bold;
+  color: rgb(89, 89, 89);
 }
 
 .mdl-layout__header-row .mdl-navigation__link{
@@ -38,21 +34,9 @@ body {
   background-blend-mode: multiply;
 }
 
-.about-card > .mdl-card__title {
-  position: absolute;
-  height: 180%;
-  margin-left: 25%;
-  color: #fff;
-  font-family: 'Lora', serif;
-}
-
-.img-text {
-  font-family: 'Lora', serif;
-}
-
 .about-text {
-  font-family: 'Lora', serif;
-  font-size: 20px;
+  color: rgb(89, 89, 89);
+  font-size: 15px;
   text-align: center;
 }
 
@@ -63,11 +47,17 @@ body {
   color: #fff;
 }
 
+.greeting {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
+
 .contact-button {
   padding-top: 5px;
   padding-bottom: 3px;
-  height: 65px;
-  width: 65px;
+  height: 45px;
+  width: 45px;
 }
 
 .contact-button:hover {
@@ -77,4 +67,9 @@ body {
 .cover-image {
   width: 100%;
   height: auto;
+}
+
+.cover-image:hover {
+  opacity: .8;
+  cursor: pointer;
 }

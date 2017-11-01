@@ -2,19 +2,16 @@ import React from 'react'
 
 const About = () => (
   <div className="mdl-grid">
-    <div className="about-card mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-      <img className="info-img" src="https://i.imgur.com/LmTU8KY.jpg" alt="chilling in the forest"/>
-      <div className="mdl-card__title">
-        <h2 className="img-text">Hello! I'm Christian Martinez.</h2>
-      </div>
+    <div className="about-card mdl-cell mdl-cell--7-col">
+      <img className="info-img" src="http://www.funnycatsite.com/pictures/programmer_cat.jpg" alt="cat"/>
     </div>
-    <div className="mdl-cell mdl-cell--3-col"></div>
-    <div className="mdl-cell mdl-cell--6-col">
+    <div className="mdl-cell mdl-cell--5-col">
       <div className="about-text">
+        <span className="greeting">Hello there!</span>
+        <span className="intro">My name is Christian.</span>
         I'm a Fullstack Web Developer with a passion for creating things, solving problems, and always finding something new to learn.
       </div>
     </div>
-    <div className="mdl-cell mdl-cell--3-col"></div>
   </div>
 )
 

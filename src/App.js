@@ -15,7 +15,7 @@ const App = () => (
     <div className="mdl-layout mdl-js-layout">
       <header className="mdl-layout__header mdl-layout__header--transparent">
         <div className="mdl-layout__header-row">
-          <span className="mdl-layout-title">xtian.io</span>
+          <span className="mdl-layout-title">CHRISTIAN MARTINEZ</span>
           <div className="mdl-layout-spacer"></div>
           <nav className="mdl-navigation">
             <Link className="mdl-navigation__link" to="/about">ABOUT</Link>
