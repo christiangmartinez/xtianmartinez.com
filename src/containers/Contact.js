@@ -5,7 +5,7 @@ const Contact = () => (
     <div className="contact-card mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
       <img className="info-img" src="https://www.voordewereldvanmorgen.nl/sites/default/files/styles/blog_image/public/mathyas-kurmann-102977.jpg?itok=JkWv-DqE" alt="mailboxes"/>
       <div className="mdl-card__title">
-        <h2>Let's get in touch</h2>
+        <h2 className="img-text">Let's get in touch</h2>
       </div>
     </div>
     <div className="mdl-cell mdl-cell--3-col"></div>

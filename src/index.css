@@ -41,11 +41,17 @@ body {
 .about-card > .mdl-card__title {
   position: absolute;
   height: 180%;
-  margin-left: 29%;
+  margin-left: 25%;
   color: #fff;
+  font-family: 'Lora', serif;
+}
+
+.img-text {
+  font-family: 'Lora', serif;
 }
 
 .about-text {
+  font-family: 'Lora', serif;
   font-size: 20px;
   text-align: center;
 }
