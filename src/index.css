@@ -47,7 +47,8 @@ body {
   text-align: center;
 }
 
-.about-text {
+p.about-text {
+  font-size: 15px;
   color: rgb(89, 89, 89);
   text-align: center;
 }
