@@ -2,6 +2,9 @@ import React from 'react'
 
 const About = () => (
 <div className="mdl-grid">
+  <div className="gif-cell mdl-cell--12">
+    <img className="work-gif" src="https://i.imgur.com/KvkUD6r.gif"/>
+  </div>
   <div className="greeting mdl-cell--12-col">
     Hello there!<br/>
     <span className="intro">My name is Christian.</span>

@@ -26,12 +26,23 @@ body {
   text-decoration: underline;
 }
 
+.gif-cell {
+  position: fixed;
+  top: -5%;
+  left: 33%;
+}
+
+.work-gif {
+  width: 400px;
+  height: auto;
+}
+
 .greeting {
   font-size: 40px;
   color: rgb(89, 89, 89);
   text-align: center;
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
