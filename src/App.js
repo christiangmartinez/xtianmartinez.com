@@ -5,10 +5,10 @@ import {
   Link
 } from 'react-router-dom'
 
-import About from './containers/About'
-import Contact from './containers/Contact'
-import Portfolio from './containers/Portfolio'
-import ProjectDetail from './containers/ProjectDetail'
+import About from './components/About'
+import Contact from './components/Contact'
+import Portfolio from './components/Portfolio'
+import ProjectDetail from './components/ProjectDetail'
 
 const App = () => (
   <Router>

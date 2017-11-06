@@ -1,5 +1,5 @@
 import React from 'react'
-import projects from './ProjectList'
+import projects from '.././ProjectList'
 import Project from './Project'
 
 class Portfolio extends React.Component {
