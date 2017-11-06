@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => (
   <div className="greeting mdl-grid">
-    <div className=" mdl-cell--12-col">
+    <div className="contact-text mdl-cell--12-col">
       Let's get in touch.
     </div>
     <div className="mdl-cell--3-col"></div>
