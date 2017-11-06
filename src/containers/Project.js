@@ -17,7 +17,9 @@ class Project extends React.Component {
         <div className="project-title">
           {this.props.project.title}
           <br/>
-          <span className="project-type">{this.props.project.type}</span>
+          <span className="project-type">
+            {this.props.project.type}
+          </span>
         </div>
       </div>
     )
