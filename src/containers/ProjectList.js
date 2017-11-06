@@ -14,7 +14,7 @@ let projects = [{
   description: 'proj'
 },{
   id: 2,
-  coverImg:'https://cdn.sfstation.com/wp-content/uploads/2016/03/miyazaki_main.gif',
+  coverImg:'https://i.imgur.com/KbECryF.png',
   title: 'Overwatch Roster',
   type: 'Angular 2/Foundation',
   description: 'proj'
