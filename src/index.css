@@ -91,6 +91,7 @@ p.about-text {
   left: 0%;
   width: 100%;
   line-height: 95%;
+  pointer-events: none;
 }
 
 .project-type {
