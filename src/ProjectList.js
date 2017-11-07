@@ -24,8 +24,8 @@ const projectList = {
     description: 'proj'
   }],
   all: function() { return this.projects},
-  get: function(id) {
-    const isProject = p => p.id === id
+  get: function(url) {
+    const isProject = p => p.url === url
     return this.projects.find(isProject)
   }
 }
