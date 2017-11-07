@@ -1,13 +1,17 @@
 import React from 'react'
+import projectList from '.././ProjectList'
 
-class ProjectDetail extends React.Component {
-  render() {
-    return(
-      <div>
-        <h2>hello</h2>
-      </div>
-    )
+const ProjectDetail = (props) =>  {
+  const project = projectList.get(
+    parseInt(props.match.params.id)
+  )
+  if (!project) {
+    return <div>ya done goofed</div>
   }
+  return(
+    <div>
+      <h1>{project.title}</h1>
+    </div>
+  )
 }
-
 export default ProjectDetail

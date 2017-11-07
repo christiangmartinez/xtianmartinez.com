@@ -10,5 +10,4 @@ const Portfolio = () => (
   </Switch>
 )
 
-
 export default Portfolio
