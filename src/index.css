@@ -129,3 +129,24 @@ p.about-text {
   cursor: pointer;
   background-color: black;
 }
+
+.proj-detail {
+  padding-top: 10%;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(89, 89, 89);
+}
+
+.proj-detail p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.detail-image {
+  width: 500px;
+  height: auto;
+}
+
+.detail-feature {
+  padding-top: 10%;
+}
