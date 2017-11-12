@@ -27,9 +27,8 @@ body {
 }
 
 .gif-cell {
-  position: fixed;
-  top: -5%;
-  left: 33%;
+  text-align: center;
+  padding-top: 5%;
 }
 
 .work-gif {
@@ -41,15 +40,10 @@ body {
   font-size: 40px;
   color: rgb(89, 89, 89);
   text-align: center;
-  position: fixed;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  line-height: 75%;
+}
+
+.hello-there {
+  padding-bottom: 1%;
 }
 
 .intro {
@@ -137,6 +131,10 @@ p.about-text {
   color: rgb(89, 89, 89);
 }
 
+.detail-item {
+  padding-bottom: 35px;
+}
+
 .proj-detail p {
   font-size: 15px;
   text-align: left;
@@ -145,6 +143,7 @@ p.about-text {
 .detail-image {
   width: 500px;
   height: auto;
+  padding-bottom: 35px;
 }
 
 .detail-feature {

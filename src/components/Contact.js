@@ -2,11 +2,10 @@ import React from 'react'
 
 const Contact = () => (
   <div className="greeting mdl-grid">
-    <div className="contact-text mdl-cell--12-col">
+    <div className="contact-text mdl-cell mdl-cell--12-col">
       Let's get in touch.
     </div>
-    <div className="mdl-cell--3-col"></div>
-    <div className="mdl-cell--6-col">
+    <div className="mdl-cell mdl-cell--12-col">
       <a href="mailto:cgmartinez11142@gmail.com">
         <img className="contact-button"
           src="https://i.imgur.com/OpcBdpz.png"
@@ -28,7 +27,6 @@ const Contact = () => (
           alt="twitter"/>
         </a>
       </div>
-    <div className="mdl-cell--3-col"></div>
   </div>
 )
 
