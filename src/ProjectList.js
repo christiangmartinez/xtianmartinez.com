@@ -14,9 +14,9 @@ const projectList = {
     featureDescription01: "Cards with asteroid info are color-coded. Passing objects that are potentially hazardous are dipslayed on a yellow card."
   },{
     id: 2,
-    coverImg:'https://i.imgur.com/LA40dA5.png',
+    coverImg:'https://i.imgur.com/Eoce0t8.jpg',
     title: 'Mappy',
-    type: 'Native Android App',
+    type: 'Native Android',
     url: 'mappy',
     description: "A location based social app. Get a feel for what's going on in your city with a quick glance at a map!",
     featureImg0:'https://i.imgur.com/rI2aG68.png',
