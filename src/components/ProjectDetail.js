@@ -17,7 +17,7 @@ const ProjectDetail = (props) =>  {
   }
   return(
     <div className="proj-detail mdl-grid">
-      <div className="detail-item">
+      <div className="detail-item mdl-cell mdl-cell--12-col">
         <h3>{project.title}</h3>
         <p>{project.description}</p>
       </div>
