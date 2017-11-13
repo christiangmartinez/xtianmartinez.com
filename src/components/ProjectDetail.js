@@ -27,12 +27,24 @@ const ProjectDetail = (props) =>  {
       <div className="detail-feature mdl-cell mdl-cell--5-col">
         <p>{project.featureDescription0}</p>
       </div>
-      <div className="detail-feature mdl-cell mdl-cell--5-col">
-        <p>{project.featureDescription01}</p>
-      </div>
       <div className="mdl-cell mdl-cell--7-col">
         <img className="detail-image" src={project.featureImg1} alt="img"/>
       </div>
+      <div className="detail-feature mdl-cell mdl-cell--5-col">
+        <p>{project.featureDescription1}</p>
+      </div>
+      <div className="mdl-cell mdl-cell--7-col">
+        <img className="detail-image" src={project.featureImg2} alt="img"/>
+      </div>
+      <div className="detail-feature mdl-cell mdl-cell--5-col">
+        <p>{project.featureDescription2}</p>
+      </div>
+      <a href={project.website}>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          VIEW WEBSITE
+      </button>
+    </a>
+    <div className="mdl-cell mdl-cell--12-col"></div>
   </div>
   )
 }

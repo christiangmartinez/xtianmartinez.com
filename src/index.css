@@ -154,4 +154,17 @@ p.about-text {
 .detail-feature {
   min-width: 200px;
   padding-top: 10%;
+  padding-left: 20px;
+}
+
+.mdl-button {
+  margin-left: 13px;
+}
+
+.mdl-button:hover {
+  opacity: .7;
+}
+.mdl-button a {
+  text-decoration: none;
+  color: white;
 }
