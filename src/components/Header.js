@@ -6,7 +6,7 @@ const Header = () => (
     <div className="mdl-layout__header-row">
       <span className="mdl-layout-title">CHRISTIAN MARTINEZ</span>
       <div className="mdl-layout-spacer"></div>
-      <nav className="mdl-navigation">
+      <nav className="mdl-navigation mdl-layout--large-screen-only">
         <Link className="mdl-navigation__link" to="/about">ABOUT</Link>
         <Link className="mdl-navigation__link" to="/portfolio">PORTFOLIO</Link>
         <Link className="mdl-navigation__link" to="/contact">CONTACT</Link>

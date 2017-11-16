@@ -26,6 +26,10 @@ body {
   text-decoration: underline;
 }
 
+.mdl-layout__drawer {
+  color: rgb(89, 89, 89);
+}
+
 .gif-cell {
   text-align: center;
   padding-top: 5%;
