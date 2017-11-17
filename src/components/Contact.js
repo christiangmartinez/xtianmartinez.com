@@ -6,7 +6,7 @@ const Contact = () => (
       Let's get in touch.
     </div>
     <div className="mdl-cell mdl-cell--12-col">
-      <a href="mailto:cgmartinez11142@gmail.com">
+      <a href="mailto:hello@xtianmartinez.com">
         <img className="contact-button"
           src="https://i.imgur.com/OpcBdpz.png"
           alt="email"/>

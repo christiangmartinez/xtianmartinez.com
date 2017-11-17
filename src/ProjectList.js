@@ -28,7 +28,7 @@ const projectList = {
     featureImg1: 'https://i.imgur.com/G61hms1.png',
     featureDescription1: "Create user accounts and secure login with Firebase.",
     featureImg2: 'https://i.imgur.com/3rdcLHC.png',
-    featureDescription2: 'Comments, latitude, and longitude, are saved in Firebase.',
+    featureDescription2: 'Comments, latitude, and longitude are saved in Firebase.',
     website: null,
     github: 'https://github.com/christiangmartinez/chismaps'
   },{
