@@ -9,7 +9,7 @@ const projectList = {
     url: 'space_rocks',
     description: "Flaming Space Rocks Tracker was a group project done in my Javascript course when I was a student at Epicodus. It’s an educational web app that teaches the user about asteroids and comets with an interactive timeline and displays real-time info of asteroids passing earth using NASA's Near Earth Objects API. ",
     featureImg0: 'https://i.imgur.com/rI2aG68.png',
-    featureDescription0: "Homepage displays list NASA on celestial objects near earth for the current day. Cards show up-to-date info for each individual object.",
+    featureDescription0: "Homepage displays list of celestial objects near earth for the current day. Cards show up-to-date info for each individual object.",
     featureImg1: 'https://i.imgur.com/gXE3maL.png',
     featureDescription1: "Cards with asteroid info are color-coded. Passing objects that are potentially hazardous are dipslayed on a yellow card.",
     featureImg2: 'https://i.imgur.com/Oyt8G5x.png',

@@ -88,10 +88,18 @@ p.about-text {
   display: block;
 }
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 .cover-image {
   width: 100%;
-  height: 100%;
-  position: relative;
+  height: auto;
 }
 
 .project-title {
@@ -115,6 +123,15 @@ p.about-text {
 
 .overlay {
   position: relative;
+  overflow: hidden;
+}
+
+.overlay img {
+  max-width: 100%;
+  position: relative;
+  -moz-transition: all 1s;
+  -webkit-transition: all qs;
+  transition: all 1s;
 }
 
 .overlay:after {
@@ -131,6 +148,13 @@ p.about-text {
   opacity: .35;
   cursor: pointer;
   background-color: black;
+}
+
+
+.overlay:hover img {
+  -moz-transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
 }
 
 .proj-detail {

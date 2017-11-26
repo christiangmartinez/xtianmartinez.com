@@ -13,7 +13,7 @@ const About = () => (
     <br/>
     <br/>
     <p className="about-text">
-      I'm a Fullstack Web Developer with a passion for creating things,<br/>solving problems, and always finding something new to learn.
+      I'm a Fullstack Developer with a passion for creating things,<br/>solving problems, and always finding something new to learn.
     </p>
   </div>
 </div>
