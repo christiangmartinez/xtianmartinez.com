@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = () => (
+const Home = () => (
 <div className="mdl-grid">
   <div className="gif-cell mdl-cell mdl-cell--12-col">
     <img className="work-gif" src="https://i.imgur.com/FTlPKVt.gif"/>
@@ -19,4 +19,4 @@ const About = () => (
 </div>
 )
 
-export default About
+export default Home
